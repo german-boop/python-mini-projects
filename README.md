@@ -14,3 +14,4 @@ A collection of 5 trending Python mini projects, ready to run and learn from.
 git clone https://github.com/german-boop/python-mini-projects.git
 cd python-mini-projects
 pip install -r requirements.txt
+
