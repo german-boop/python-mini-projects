@@ -1,20 +1,23 @@
-# Python Mini Projects
+# Detailed Project Descriptions
 
-A collection of 5 trending Python mini projects, ready to run and learn from.
+## Project 01: Password Generator
+- Generates strong random passwords with letters, digits, and symbols.
+- Usage: `python projects/project01/main.py`
 
-## Projects Included
+## Project 02: QR Code Creator
+- Create a QR code from any text or URL.
+- Output: `qrcode.png`
+- Usage: `python projects/project02/main.py`
 
-| Project | Description |
-|---------|-------------|
-| Password Generator | Generates secure passwords. |
-| QR Code Creator | Creates QR codes from text or URLs. |
-| Weather API Client | Fetches current weather using a public API. |
-| CLI Todo App | Simple command-line task manager. |
-| Mini Web Scraper | Scrapes links from any website. |
+## Project 03: Weather API Client
+- Fetches current weather data for a given latitude/longitude using Open-Meteo API.
+- Usage: `python projects/project03/main.py`
 
-## Installation
+## Project 04: CLI Todo App
+- Command-line interface for managing tasks.
+- Add, view, and remove tasks interactively.
+- Usage: `python projects/project04/main.py`
 
-```bash
-git clone https://github.com/german-boop/python-mini-projects.git
-cd python-mini-projects
-pip install -r requirements.txt
+## Project 05: Mini Web Scraper
+- Extracts all links from any webpage.
+- Usage: `python projects/project05/main.py`
