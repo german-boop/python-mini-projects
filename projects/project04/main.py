@@ -1,21 +1,13 @@
-tasks = []
+from PIL import Image, ImageDraw, ImageFont
 
-while True:
-    print("\n1. Add task\n2. Show tasks\n3. Exit")
-    choice = input("Choice: ")
+tasks = ["Buy groceries", "Read book", "Exercise"]
+text = "\n".join(f"{i+1}. {task}" for i, task in enumerate(tasks))
 
-    if choice == "1":
-        task = input("Enter task: ")
-        tasks.append(task)
-        print("Task added.")
+# ایجاد تصویر سفید
+img = Image.new("RGB", (400, 100 + 30*len(tasks)), color="white")
+draw = ImageDraw.Draw(img)
+draw.text((10, 10), text, fill="black")
 
-    elif choice == "2":
-        print("\nYour tasks:")
-        for i, t in enumerate(tasks, 1):
-            print(f"{i}. {t}")
-
-    elif choice == "3":
-        break
-
-    else:
-        print("Invalid choice.")
+# ذخیره تصویر
+img.save("screenshots/project04.png")
+print("Screenshot saved to screenshots/project04.png")
