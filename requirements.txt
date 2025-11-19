@@ -1,0 +1,4 @@
+code requirements.txt
+requests
+beautifulsoup4
+qrcode
